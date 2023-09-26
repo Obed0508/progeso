@@ -1,0 +1,72 @@
+import UIKit
+
+//ejercicio 1
+//declaracion de variables
+let  numero1 = 7
+let  numero2 = 11
+
+let suma = numero1 + numero2
+print(suma)
+
+let resta = numero1 - numero2
+print(resta)
+
+let menor = numero1 < numero2
+print(menor)
+let mayor = numero1 > numero2
+print(mayor)
+//ejercicio 2
+var numeros: [Int] = [12, 2, 34, 66, 49]
+//ejercicio 3
+for numero in numeros{
+    print(numero)
+}
+//ejercicio 4
+numeros.sort()
+//ejercico 5
+numeros.append(4)
+numeros.append(3)
+numeros.sort()
+//ejercicio 6
+numeros.remove(at:3)
+//ejercicio 7
+let a = 4
+let b = 3
+
+if ( a > b ) {
+    print ("A es mas grande que B")
+}
+//ejercicio 8
+let edad = 18
+let resultado = edad >= 18 ? "es mayor de edad" : "Es menor de edad"
+//ejercicio 9
+let nu1 = 3
+let nu2 = -4
+if (nu1 > 0){
+    print("el numero es positivo")
+}else if (nu1>0){
+    print("el numero es negativo")
+}else{
+    print("no es ninguno")
+}
+
+if (nu2 > 0){
+    print("el numero es positivo")
+}else if (nu2 < 0){
+    print("el numero es negativo")
+}else{
+    print("no es ninguno")
+}
+//ejercicio 10
+let clima = "soleado"
+
+switch clima {
+case "soleado":
+    print("Es agradable")
+case "nublado":
+    print("No es agradable")
+case "Lloviendo":
+    print("No es agradable")
+default:
+    print("nada")
+}
